@@ -1,12 +1,12 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 50;
+  padding: 10;
   font-family: Arial, sans-serif;
 }
 
 body {
-  background: #b6cfff;
+  background: #434446;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -18,7 +18,7 @@ body {
   background: rgb(255, 255, 255);
   padding: 40px 30px;
   border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 20px 24px rgba(0, 0, 0, 0.12);
   text-align: center;
   width: 100%;
   max-width: 450px;
@@ -38,7 +38,7 @@ h1 {
 
 .chances-box {
   background: #88cfdb;
-  border: 1px solid #e9ecef;
+  border: 2px solid #242424;
   padding: 8px 18px;
   border-radius: 20px;
   display: inline-block;
@@ -48,12 +48,12 @@ h1 {
 }
 
 #chances {
-  color: #dc3545;
+  color: #000000;
   font-size: 20px;
 }
 
 .input-container {
-  display: flex;
+  display: flexbox;
   justify-content: center;
   gap: 12px;
   margin-bottom: 20px;
@@ -75,7 +75,7 @@ input:focus {
 }
 
 button {
-  background-color: #007bff;
+  background-color: #00c3ff;
   color: white;
   border: none;
   padding: 12px 24px;
@@ -87,7 +87,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #ffbe0a;
 }
 
 .restart-btn {
